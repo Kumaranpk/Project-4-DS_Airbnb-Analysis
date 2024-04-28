@@ -18,7 +18,7 @@ st.title("AIRBNB DATA ANALYSIS")
 st.write("")
 
 def datafr():
-    df= pd.read_csv("C:/Users/admin/Documents/capstones/4_AirBnb_Analysis/Airbnb.csv")
+    df= pd.read_csv("C:/Users/admin/Downloads/Airbnb-downloads/Airbnb.csv")
     return df
 
 df= datafr()
@@ -145,7 +145,7 @@ if select == "Data Exploration":
     with tab2:
 
         def datafr():
-            df_a= pd.read_csv("C:/Users/vignesh/Desktop/New folder/Airbnb.csv")
+            df_a= pd.read_csv("C:/Users/admin/Downloads/Airbnb-downloads/Airbnb.csv")
             return df_a
 
         df_a= datafr()
@@ -217,7 +217,7 @@ if select == "Data Exploration":
         st.write("")
 
         def datafr():
-            df= pd.read_csv("C:/Users/vignesh/Desktop/New folder/Airbnb.csv")
+            df= pd.read_csv("C:/Users/admin/Downloads/Airbnb-downloads/Airbnb.csv")
             return df
 
         df_l= datafr()
@@ -425,9 +425,4 @@ if select == "About":
 
     st.write('''***Utilize geospatial analysis to understand the geographical distribution of listings.
         Map out popular areas, analyze neighborhood characteristics, and visualize pricing variations.***''')
-
-
-
-
-
 
