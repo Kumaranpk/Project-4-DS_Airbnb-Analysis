@@ -18,7 +18,7 @@ st.title("AIRBNB DATA ANALYSIS")
 st.write("")
 
 def datafr():
-    df= pd.read_csv("C:/Users/vignesh/Desktop/New folder/Airbnb.csv")
+    df= pd.read_csv("C:/Users/admin/Documents/capstones/4_AirBnb_Analysis/Airbnb.csv")
     return df
 
 df= datafr()
@@ -28,7 +28,7 @@ with st.sidebar:
 
 if select == "Home":
 
-    image1= Image.open("C:/Users/vignesh/Desktop/New folder/Airbnb image.jpg")
+    image1= Image.open("C:/Users/admin/Documents/capstones/4_AirBnb_Analysis/Airbnb_image.jpg")
     st.image(image1)
 
     st.header("About Airbnb")
